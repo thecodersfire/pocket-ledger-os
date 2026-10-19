@@ -12,3 +12,13 @@ Install them from this repository:
 
     mkdir -p "$HOME/.local/bin"
     install -m 0755 features/pocket-ledger-os-workspace features/pocket-ledger-os-plan features/pocket-ledger-os-check "$HOME/.local/bin/"
+
+## Preinstalled purpose software
+
+The installer adds these three Flathub applications for personal finance:
+
+1. **GNOME Calendar** — org.gnome.Calendar
+2. **VSCodium** — com.vscodium.codium
+3. **GIMP** — org.gimp.GIMP
+
+They are installed from Flathub during setup. The repository contains application IDs and documentation, not third-party binaries; each publisher’s terms and licenses apply.
